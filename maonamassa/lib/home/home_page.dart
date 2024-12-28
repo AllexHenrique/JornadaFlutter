@@ -8,12 +8,9 @@ class HomePage extends StatelessWidget {
         title: Text('Primeira AppBar'),
         backgroundColor: Colors.cyan.shade100,
       ),
-      drawer: Drawer(child: Center(child: Text('Drawer Aberto'),
-        ),
-          ),
+      drawer: Drawer(child: Center(child: Text('Drawer Aberto'),),),
 
-      body: Center(child: Text('Nossa Primeira Home Page'),
-      ),
+      body: Center(child: Text('Nossa Primeira Home Page')),
     );
   }
 }
