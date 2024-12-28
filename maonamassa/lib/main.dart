@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_maonamassa/aulas/01_contane.dart' show Contane;
 import 'package:flutter_maonamassa/home/home_page.dart' show HomePage;
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      // home: HomePage(),
+      home: Contane(),
     );
   }
 }
